@@ -110,7 +110,7 @@ const books = [
     return (
       <div className="book">
         <img src={img} />
-        <h3> {title} </h3>
+        <h3 onClick={() => console.log(title)}> {title} </h3>
         <h6> {author} </h6>
         <button type="button" onClick={clickHendler}> click </button>
       </div>
